@@ -14,7 +14,7 @@ setx(x+1);
       <p> {x} </p>
       {/* Note-2: Instead of using getElementById and adding an event listener, I can directly use onClick to trigger   */}
       {/* Note-3: When calling a function inside jsx, you don't put parenthisis() */}
-      <button onClick={add}>Increase number</button>
+      <button onClick={add} class = "button" >Increase number</button>
     </div>
   )
 }

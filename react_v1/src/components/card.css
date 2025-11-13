@@ -1,3 +1,10 @@
 .card{
-    background-color: aqua;
+    background-color: beige;
+    padding:40px;
+    margin:20px;
+}
+
+.button{
+    background-color: lightblue;
+    border:1px solid black;
 }

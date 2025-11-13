@@ -1,0 +1,13 @@
+.card_container{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 4%;
+    border: 2px solid rgb(42,218,227);
+    padding: 20px;
+    width:300px;
+}
+
+.grade_font{
+    font-size: 48px;
+
+}
