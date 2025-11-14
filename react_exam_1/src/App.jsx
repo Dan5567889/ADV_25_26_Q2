@@ -13,21 +13,18 @@ function App() {
     
     <div class = "card"> 
     <img src={reactLogo} className="logo react" alt="React logo" />
-    <Card name = {"Nike Air Max 270"} price = {139.99} gender = {"Women"}/>
-    <button class = "button" > Add to cart </button>
+    <Card name = {"Nike Air Max 270"} description = {" These shoes are top of the line! "} price = {139.99} gender = {"Women"}/>
     </div>
 
 
     <div class = "card"> 
     <img src={reactLogo} className="logo react" alt="React logo" />
-    <Card name = {"Nike Air Max 270"} price = {139.99} gender = {"Women"}/>
-    <button class = "button" > Add to cart </button>
+    <Card name = {"Nike Air Max 270"} description = {" These shoes are top of the line! "} price = {139.99} gender = {"Women"}/>
     </div>
 
     <div class = "card"> 
     <img src={reactLogo} className="logo react" alt="React logo" />
-    <Card name = {"Nike Air Max 270"} price = {139.99} gender = {"Women"}/>
-    <button class = "button" > Add to cart </button>
+    <Card name = {"Nike Air Max 270"} description = {" These shoes are top of the line! "} price = {139.99} gender = {"Women"}/>
     </div>
   </>
   )
