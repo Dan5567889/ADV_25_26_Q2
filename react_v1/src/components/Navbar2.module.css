@@ -1,0 +1,41 @@
+.nav{
+    background-color: #2db3db;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 32px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li{
+    padding:4px;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    li {
+        width: 100%;
+        text-align: left;
+        padding: 8px 0;
+    }
+}

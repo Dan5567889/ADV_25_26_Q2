@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Card from '../src//components/card.jsx'
 import Card2 from '../src//components/Card2.jsx'
+import Navbar2 from './components/Navbar2.jsx'
+import Toggle from './components/Toggle.jsx'
 
 function App() {
   // I am declaring a variable x and setting it to 0
@@ -11,6 +13,7 @@ function App() {
 
   return (
     <>
+    <Navbar2/>
     <h1> This is my first day with react </h1>
     <p> Dante Hernandez </p>
 
@@ -19,6 +22,7 @@ function App() {
     <Card />
     <Card />
     <Card />
+    <Toggle />
 {/* I must call the Card2 component to make sure it shows up */}
     <Card2 stu_name={"Dante Hernandez"} stu_class = {"advanced prog"} stu_exam={"react_day1"} stu_grade={90} />
     <Card2 stu_name={"Jaden Dealmada"} stu_class = {"advanced prog"} stu_exam={"react_day1"} stu_grade={80} />
