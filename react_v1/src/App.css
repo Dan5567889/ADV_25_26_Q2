@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+
+.nice{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+}
+
+#google{
+  color: black;
+  background-color: rgb(230, 225, 225);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+
+
+.gooooogle{
+  width:25px;
+  height:25px;
+  margin-left: 10px;
+}
