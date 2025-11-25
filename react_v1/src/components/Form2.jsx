@@ -8,6 +8,7 @@ function Form2() {
     const submitFormHandler = (event) => {
         event.preventDefault();
         console.log(" Email: " + email + " Password: " + password);
+        
     };
 
     return (
@@ -25,6 +26,8 @@ function Form2() {
                 <label> Password </label>
                 <input type="text" 
                 name="Password" 
+                minLength="6"
+                required
                 onChange={(event) => setPassword(event.target.value)} 
                 /> 
                 <br />
@@ -35,7 +38,7 @@ function Form2() {
                 /> 
                 <br/>
 
-                <button  onClick={submitFormHandler} type="submit" > Login </button>
+                <button  onSubmit={submitFormHandler} type="submit" > Login </button>
             </form>
         </div>
     );
