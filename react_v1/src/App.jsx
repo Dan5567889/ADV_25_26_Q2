@@ -11,6 +11,9 @@ import Form from './components/Form.jsx'
 import Form2 from './components/Form2.jsx'
 import skull from './assets/illustration.PNG';
 import google from './assets/Google.PNG';
+import LearnuseEffect from './components/LearnUseEffect.jsx'
+import GetUsers from './components/GetUsers.jsx'
+
 
 function App() {
   // I am declaring a variable x and setting it to 0
@@ -18,6 +21,8 @@ function App() {
 
   return (
     <>
+    <GetUsers/>
+    <LearnuseEffect/>
 
     <div className = "nice"> 
       
