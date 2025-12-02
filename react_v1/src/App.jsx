@@ -13,6 +13,8 @@ import skull from './assets/illustration.PNG';
 import google from './assets/Google.PNG';
 import LearnuseEffect from './components/LearnUseEffect.jsx'
 import GetUsers from './components/GetUsers.jsx'
+import GetImage from './components/Getimage.jsx'
+import PicsumFetcher from './components/frqLab.jsx'
 
 
 function App() {
@@ -21,6 +23,13 @@ function App() {
 
   return (
     <>
+
+
+    <PicsumFetcher/>
+
+{/* 
+    <GetImage/>
+
     <GetUsers/>
     <LearnuseEffect/>
 
@@ -43,7 +52,7 @@ function App() {
       </div>
 
     </div>
-
+  */}
     {/* 
     <Navbar2/> <br/>
     
