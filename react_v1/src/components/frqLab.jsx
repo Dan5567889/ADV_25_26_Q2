@@ -4,6 +4,8 @@
 //(10 pts) Add a “Load New Image” button that fetches another random Picsum image (hint: use a random ID)
 
 import React, { useState, useEffect } from "react";
+import './frqLab.module.css';
+
 
 export default function PicsumFetcher() {
   const [imageUrl, setImageUrl] = useState("");
@@ -22,15 +24,16 @@ export default function PicsumFetcher() {
   }, []);
 
   return (
-    <div>
-      <h1>Picsum Image Viewer</h1>
-
-      {/* Display the image here */}
-      {imageUrl && <img src={imageUrl} alt="Random Picsum" width="400" />}
-      <br/>
+    <div className="nice">
+      <h1 >Picsum Image Viewer</h1>
       <button onClick={fetchImage}>
         Load New Image
       </button>
+      {/* Display the image here */}
+      
+      {imageUrl && <img src={imageUrl} alt="Random Picsum" width="400" />}
+      <br/>
+      
     </div>
   );
 }
