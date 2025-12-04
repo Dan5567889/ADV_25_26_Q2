@@ -10,11 +10,13 @@ import Toggle2 from './components/Toggle2.jsx'
 import Form from './components/Form.jsx'
 import Form2 from './components/Form2.jsx'
 import skull from './assets/illustration.PNG';
-import google from './assets/Google.PNG';
-import LearnuseEffect from './components/LearnUseEffect.jsx'
-import GetUsers from './components/GetUsers.jsx'
-import GetImage from './components/Getimage.jsx'
-import PicsumFetcher from './components/frqLab.jsx'
+//import google from './assets/Google.PNG';
+//import LearnuseEffect from './components/LearnUseEffect.jsx'
+//import GetUsers from './components/GetUsers.jsx'
+//import GetImage from './components/Getimage.jsx'
+//import PicsumFetcher from './components/frqLab.jsx'
+//import LearnuseEffect2 from './components/LearnUseEffect2.jsx'
+import ImageReloader from './components/halfDay.jsx'
 
 
 function App() {
@@ -24,10 +26,15 @@ function App() {
   return (
     <>
 
+    <ImageReloader/>
+
+{/* 
+    <LearnuseEffect/>
+    <LearnuseEffect2/>
 
     <PicsumFetcher/>
 
-{/* 
+
     <GetImage/>
 
     <GetUsers/>

@@ -1,0 +1,23 @@
+div{
+    background-color: lightblue;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+    width:50%;
+}
+
+button{
+    background-color: #7568bd;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+img{
+    width: 100%;
+}
